@@ -1,0 +1,132 @@
+/* CSS Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.logo {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 2em auto;
+    text-align: center;
+}
+
+.product-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 420px;
+    grid-gap: 2em;
+}
+
+.product-list li {
+    border: 1px solid #ccc;
+    padding: 1em;
+}
+
+.product-list img {
+    max-width: 100%;
+    height: 50%;
+}
+
+.product-list h3 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.product-list .product-price {
+    font-weight: bold;
+}
+
+.footer {
+    border-top: 1px solid #333;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(204, 204, 204, 0.5);
+}
+
+.productsCart li {
+    border-bottom: 1px solid #333;
+    padding: 1rem;
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.productsCart img {
+    display: block;
+    width: 80px;
+    height: auto;
+    object-fit: contain;
+}
+
+.empty {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.main-title {
+    font-family: "Tu Fuente Preferida"; 
+    color: #B30000; 
+    font-size: 2.5rem; 
+    text-align: center; 
+    margin-bottom: 10px; 
+}
+.main-subtitle {
+    font-family: "Tu Fuente Preferida";
+    color: #B30000; 
+    font-size: 1.5rem; 
+    text-align: center; 
+    margin-top: 0;
+}
+body {
+    background-image: url('https://i.pinimg.com/originals/f2/25/f0/f225f0da5b621b872f6513d59f89a9b6.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+/* Estilo para los botones */
+.add-to-cart {
+    background-color: #B30000; /* Color de fondo azul, puedes cambiarlo */
+    color: #f3f7f3; /* Color de texto blanco */
+    border: none;
+    padding: 0.5rem 1rem; /* Espaciado interno para el botón */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+/* Estilo para los botones cuando se les pasa el mouse por encima */
+.add-to-cart:hover {
+    background-color: #B30000; /* Cambia el color de fondo cuando se pasa el mouse */
+}
+

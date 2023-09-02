@@ -1,0 +1,66 @@
+[
+	{
+		"id": "1",
+		"nombre": "OPCION 1",
+		"producto": "POLIZA DE SEGURO AUTOMOTOR",
+		"imagen": "./images/1 todo riesgo.jpg",
+		"precio": 25000,
+		"descripcion": "TODO RIESGO CON FRANQUICIA"
+	},
+	{
+		"id": "2",
+		"nombre": "OPCION 2",
+		"producto": "POLIZA DE SEGURO AUTOMOTOR",
+		"imagen": "./images/2 terceros completo full.jpg",
+		"precio": 19000,
+		"descripcion": "TERCEROS COMPLETO CON GRANIZO Y CRISTALES"
+	},
+	{
+		"id": "3",
+		"nombre": "OPCION 3",
+		"producto": "POLIZA DE SEGURO AUTOMOTOR",
+		"imagen": "./images/3 tercero completo 2.jpg",
+		"precio": 14000,
+		"descripcion": "INCENDIO - ROBO TOTAL Y PARCIAL - MAS DT"
+	},
+	{
+		"id": "4",
+		"nombre": "OPCION 4",
+		"producto": "POLIZA DE SEGURO AUTOMOTOR",
+		"imagen": "./images/4 tercero completo 1.jpg",
+		"precio": 11000,
+		"descripcion": "INCENDIO - ROBO SIN PARCIALES MAS DESTRUCCION TOTAL"
+	},
+	{
+		"id": "5",
+		"nombre": "OPCION 5",
+		"producto": "POLIZA DE SEGURO AUTOMOTOR",
+		"imagen": "./images/5 incendio y robo.jpg",
+		"precio": 8500,
+		"descripcion": "INCENDIO Y ROBO TOTAL SIN PARCIAL"
+	},
+	{
+		"id": "6",
+		"nombre": "OPCION 6",
+		"producto": "POLIZA DE SEGURO AUTOMOTOR",
+		"imagen": "./images/6 incendio.jpg",
+		"precio": 6500,
+		"descripcion": "INCENDIO TOTAL SIN PARCIAL"
+	},
+	{
+		"id": "7",
+		"nombre": "OPCION 7",
+		"producto": "POLIZA DE SEGURO AUTOMOTOR",
+		"imagen": "./images/7 basico para circular.jpg",
+		"precio": 3500,
+		"descripcion": "RESPONSABILIDAD CIVIL PARA CIRCULAR"
+	},
+	{
+		"id": "8",
+		"nombre": "OPCION 8",
+		"producto": "POLIZA DE SEGURO AUTOMOTOR",
+		"imagen": "./images/8 seguro garage.jpg",
+		"precio": 3400,
+		"descripcion": "ROBO E INCENDIO EN GARAJE SIN RC"
+	}
+]

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LA SEGUNDA SEGUROS EN MONTE</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <!-- Barra de navegación Bootstrap -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">La Segunda Monte</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Atencion personalizada</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">El mejor precio para tu vehiculo</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contacto: 02226 44 7467</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+    <!-- Encabezado de la página -->
+    <header>
+        <a href="index.html" class="logo">ROJAS 1240, MONTE Bs As</a>
+        <img src="https://wwwlasegundal2prodnj.azurewebsites.net/assets/img/logo-fb.jpg" alt="Nombre del Logo">
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <h1 class="main-title">Bienvenidos a SEGUROS LA SEGUNDA EN MONTE</h1>
+        <section>
+            <h2 class="main-subtitle">Elegí la poliza que mas se adapte a tus nececidades</h2>
+            <ul class="product-list">
+                <!-- Aquí se agregarán los productos dinámicamente -->
+            </ul>
+        </section>
+        <section>
+            <h2><i class="bi bi-cart"></i>Carrito</h2>
+            <div class="carrito"></div>
+
+            <!-- Formulario para agregar productos -->
+            <form id="formulario-agregar">
+                <label for="nombreProducto">Producto:</label>
+                <input type="text" id="nombreProducto" required>
+                <button id="agregar-${producto.id}" class="add-to-cart">Agregar al carrito</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 SEGUROS LA SEGUNDA EN MONTE</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./app.js"></script>
+    <script src="./main.js"></script>
+    
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
